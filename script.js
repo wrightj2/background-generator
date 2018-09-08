@@ -30,7 +30,6 @@ ul.onclick = function(event){
 	target.classList.toggle("done");
 }
 
-
 function addListAfterKeypress(event) {
 	if (inputLength() > 0 && event.keyCode === 13) {
 		createListElement();
